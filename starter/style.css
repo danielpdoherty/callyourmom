@@ -1,0 +1,41 @@
+body{
+	background-color: purple;
+	color: lightgrey;
+}
+
+/*header styles*/
+.logo-img{
+	float: right;
+	padding: 10px;
+	margin-right: 20px;
+	margin-top: 20px; 
+}
+
+.logo-img img{
+	height: 200px;
+	width: 200px;
+}
+
+.navbar-default{
+	background-color: purple;
+	border: none;
+}
+
+.nav-ul{
+	list-style: none;
+}
+
+.nav-ul li{
+	color: white;
+	padding: 25px;
+	font-size: 30px;
+}
+
+/*footer styles*/
+footer{
+	display: inline;
+}
+
+.apol-gen{
+	float: right;
+}

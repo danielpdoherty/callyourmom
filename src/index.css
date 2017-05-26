@@ -1,0 +1,309 @@
+body{
+	background-color: purple;
+	color: #eddede;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+ul{
+	list-style: none;
+}
+
+/*header styles*/
+.logo-img{
+	float: right;
+	padding: 10px;
+	margin-right: 20px;
+	margin-top: 20px; 
+}
+
+.logo-img img{
+	height: 200px;
+	width: 200px;
+}
+
+.navbar-default{
+	background-color: purple;
+	border: none;
+	height: 100%;
+	padding: 0px 0px 40px 0px;
+}
+
+.nav-ul{
+	list-style: none;
+	width: 0px;
+}
+
+.nav-ul li{
+	padding: 15px;
+	font-size: 30px;
+}
+
+.nav-ul li a{
+	color: white;
+}
+
+.theme-ul{
+	list-style: none;
+	margin-top: 50px;
+}
+
+.theme-ul li{
+	display: inline;
+	margin: 20px;
+}
+
+.droprow{
+	/*z-index: 20;*/
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .drop-row {
+    position: relative;
+    width: 100%;
+  }
+}
+
+/*footer styles*/
+footer{
+	max-height: 80px;
+}
+
+.footer-info h1{
+	display: inline;
+	width: 50%;
+	font-size: 15px;
+	margin-right: 10px;
+}
+
+.apol-gen{
+	float: right;
+	position: absolute;
+	bottom: 30px;
+	right: 20px;
+	z-index: 20;
+	margin: 0px 30px 30px 0px;
+}
+
+.apology-result{
+	position: absolute;
+	bottom: 70px;
+	right: 350px;
+	font-size: 20px;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.email-icon {
+	height: 50px;
+	width: 50px;
+}
+
+/*button elements*/
+.button{
+	/*[ Position ]
+	margin:0 10px 50px 10px;
+	float:left;
+	left: 200px;
+	top:90px;*/
+	/* [ Botton ] */
+	position:relative;
+	height:100px;
+	width:100px;
+	cursor:pointer;
+	line-height:47px;
+	background-color:#f1f1f1;
+	text-align:center;
+	font-size:20px;
+	display:inline-block;
+	text-shadow:0px -1px 1px rgba(255,255,255,0.5);
+	color:#444;
+	/* Transitions */
+	-moz-transition:.1s ease-out;
+	-webkit-transition:.1s ease-out;
+	-o-transition:.1s ease-out;
+	-ms-transition:.1s ease-out;
+	-khtml-transition:.1s ease-out;
+	transition:.1s ease-out;
+	/* Shadows */
+	box-shadow:inset 0 0 5px 0 rgba(255,255,255,0.5);
+	-moz-box-shadow:inset 0 0 5px 0 rgba(255,255,255,0.5);
+	-ms-box-shadow:inset 0 0 5px 0 rgba(255,255,255,0.5);
+	-webkit-box-shadow:inset 0 0 5px 0 rgba(255,255,255,0.5);
+	-khtml-box-shadow:inset 0 0 5px 0 rgba(255,255,255,0.5);
+	-o-box-shadow:inset 0 0 5px 0 rgba(255,255,255,0.5);
+	/* Borders */
+	border-width:1px;
+	border-style:solid;
+	border-left-color:#777;
+	border-right-color:#777;
+	border-top-color:#999;
+	border-bottom:4px solid #555;
+	/* {{ No selectable }} */
+	user-select:none;
+	-moz-user-select:none;
+	-webkit-user-select:none;
+	-o-user-select:none;
+	-ms-user-select:none;
+	-khtml-user-select:none;
+	/*[{- Border radius -}]*/
+	border-radius:50px;
+	-moz-border-radius:50px;
+	-webkit-border-radius:50px;
+	-ms-border-radius:50px;
+	-khtml-border-radius:50px;
+	-o-border-radius:50px;
+	/* Gradient */
+	background-image:-moz-linear-gradient(top,transparent,rgba(0,0,0,0.2));
+	background-image:-webkit-linear-gradient(top,transparent,rgba(0,0,0,0.2));
+	background-image:-o-linear-gradient(top,transparent,rgba(0,0,0,0.2));
+	background-image:-khtml-linear-gradient(top,transparent,rgba(0,0,0,0.2));
+	background-image:-ms-linear-gradient(top,transparent,rgba(0,0,0,0.2));
+	background-image:linear-gradient(top,transparent,rgba(0,0,0,0.2));
+}
+.button:hover{
+	color:#333;
+	/*{Gradient}*/
+	background-image:-moz-linear-gradient(top,transparent,rgba(0,0,0,0.17));
+	background-image:-webkit-linear-gradient(top,transparent,rgba(0,0,0,0.17));
+	background-image:-ms-linear-gradient(top,transparent,rgba(0,0,0,0.17));
+	background-image:-khtml-linear-gradient(top,transparent,rgba(0,0,0,0.17));
+	background-image:-o-linear-gradient(top,transparent,rgba(0,0,0,0.17));
+	background-image:linear-gradient(top,transparent,rgba(0,0,0,0.17));
+}
+.button:active{
+	margin-top:4px;
+	color:#777;
+	border:1px solid #999;
+	/*{Shadow}*/
+	box-shadow:inset 0 0 5px 0 #333;
+	-moz-box-shadow:inset 0 0 5px 0 #333;
+	-webkit-box-shadow:inset 0 1px 2px 0 #333, 0 1px 1px 0 #fff;
+}
+.text-shadow-negra{
+	text-shadow:-1px -1px 0 rgba(0,0,0,0.2);
+}
+.text-blanco{
+	color:#F2F2F2;
+}
+.text-blanco:hover{
+	color:#DDD;
+}
+.text-blanco:active{
+	color:#DDC;
+}
+
+.blue{
+	background-color:#659AE0;
+	border-bottom-color:#436796;
+	border-left-color:#5981AF;
+	border-right-color:#5981AF;
+	border-top-color:#719CCE;
+}
+
+.red{
+	background-color:#C46A6A;
+	border-bottom-color:#A05D5D;
+	border-left-color:#AF5757;
+	border-right-color:#AF5757;
+	border-top-color:#C66767;
+}
+
+.large-button{
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+
+.sound-button{
+	height: 100%;
+	width: 100%;
+}
+
+
+
+/*page layout formating*/
+.topic-children, .help-children, .abort-page, .practice-page{
+	text-align: center;
+	list-style: none;
+	margin-top: 70px;
+	margin-right: 100px;
+}
+
+/*soothing styling*/
+.soothing-help-page{
+
+}
+
+/*image background stlying*/
+.back-img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	opacity: .9;
+	z-index: -10;
+}
+
+/*topic layout*/
+@keyframes fadeOutIn {
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fadeOutIn {
+  animation-name: fadeOutIn;
+  animation-delay: 0ms;
+  animation-duration: 16000ms;
+  animation-iteration-count: infinite;  
+ }
+
+ #topicCopy, #positive{
+ 	color: white;
+ 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+ }
+
+ /*abort page layouts*/
+ .abort-page{
+ 	display: flex;
+ 	flex-direction: row;
+ 	flex-wrap: wrap;
+ }
+
+ .abort-page button{
+ 	height: 140px;
+ 	width: 140px;
+ 	border-radius: 100%; 
+ 	margin: 30px;
+ }
+.abort-text{
+	font-size: 30px;
+ 	font-weight: bold;
+ 	color: white;
+ 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+ 	margin-left: 200px;
+}
+
+ /*welcome styles*/
+ .welcome-text{
+ 	font-size: 30px;
+ 	font-weight: bold;
+ 	text-align: center;
+ 	color: white;
+ 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+ }
+
+/*focus issues*/
+ a, a:active, a:focus {
+outline: none !important;
+}
+
+button:active, button:focus{
+	outline: none !important;
+}
+

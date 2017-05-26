@@ -1,0 +1,82 @@
+{
+  "momstuff":{
+    "topics": [
+      {
+      	"copy": "A peregrine falcon can reach speeds of up to 388mph during a dive."
+      		},
+          {    	
+        "copy": "Man, the weather has been crazy."
+      		},
+          {    	
+      	"copy": "Can you believe that <politician>? What'll <they> do next?"
+      		},
+          {
+        "copy": "I know mom... Chik-Fil-A should be open on Sundays."
+          },
+          {
+        "copy": "They should have never cancelled Friends! I demand a Friends reboot!"
+          },
+          {
+        "copy": "Your computer's on the fritz again?"
+          },
+          {
+        "copy": "You're right about <neighbor>, why does she do that?"
+          },
+          {
+        "copy": "Yeah, speaking of which, how is <cat's name>?"
+          }
+  		],
+    "apologies": [
+      {
+        "sorry": "My bad, I was listening... just eating some Sbarro."
+          },
+          {     
+        "sorry": "What? No I'm not at a bar, that's the TV!"
+          },
+          {     
+        "sorry": "No I didn't swear, I am walking by a construction site."
+          },
+          {
+        "sorry": "Yeah sorry I haven't called in a while, I fell into a well."
+          },
+          {
+        "sorry": "I would have come home for Christmas, but I'm vegan now."
+          },
+          {
+        "sorry": "Ok before we get started let me just apologize in advance."
+          },
+          {
+        "sorry": "Yeah I totally remember that <person from childhood>. I thought you meant someone else."
+          },
+          {
+        "sorry": "I would say sorry but I live in a world without blame, namaste."
+          }
+      ],
+  	"positive": [
+      {
+  			"affirmation": "You must be like the waterfall, powerful and majestic but always following the flow."
+  			   },
+          {
+  			"affirmation": "A diamond like you cares not for it's valuation."
+  			   },
+          {
+        "affirmation": "The tortiose didn't win the race from inside it's shell."
+          },
+          {
+        "affirmation": "You definitely pay your bills on time, most of the time."
+          },
+          {
+        "affirmation": "Last time I saw that much brilliance and charisma, I was staring in the mirror!"
+          },
+          {
+        "affirmation": "They told me you had style and grace, but nobody mentioned... all the... other good stuff."
+          },
+          {
+        "affirmation": "Don't worry because after you hang up, there's beer."
+          },
+          {
+        "affirmation": "Your mom totally knows you can do your laundry, she just has... some suggestions."
+          }
+  		]
+	}
+}  
