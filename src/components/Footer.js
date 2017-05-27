@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import firebase, { database, firebaseListToArray } from '../firebase';
+import { Link } from 'react-router';
 
 import Email from '../img/email.png';
 
@@ -63,7 +64,9 @@ class Footer extends Component{
 			<footer className="row navbar navbar-inverse navbar-fixed-bottom">
 				<div className="col-md-offset-3 footer-info">
 					<h1>Daniel Doherty 2017.</h1>
-					<img src={Email} alt="Email Icon" className="email-icon" />
+					<Link to="/contact">
+						<img src={Email} alt="Email Icon" className="email-icon" />
+					</Link>	
 				</div>
 
 				{this.state.showDiv ?

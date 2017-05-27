@@ -13,18 +13,20 @@ import Welcome from './components/Welcome';
 import Welcomeb from './components/Welcomeb';
 import Welcomey from './components/Welcomey';
 import Welcomef from './components/Welcomef';
+import Contact from './components/Contact';
 
 
 
 ReactDOM.render(<Router history={ hashHistory }>
   	<Route path="/" component={App}>
   		<IndexRoute component={Welcome} />
-  		<Route path="/beach" component={Welcomeb} />
-  		<Route path="/yoga" component={Welcomey} />
-  		<Route path="/fire" component={Welcomef} />
+  		<Route path="beach" component={Welcomeb} />
+  		<Route path="yoga" component={Welcomey} />
+  		<Route path="fire" component={Welcomef} />
   		<Route path="topic" component={Topic} />
   		<Route path="help" component={Help} />
   		<Route path="abort" component={Abort} />
+      <Route path="contact" component={Contact} />
   	</Route>
   	<Route path="*" component={NotFound} />
   </Router>, document.getElementById('root'));

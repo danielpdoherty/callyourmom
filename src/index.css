@@ -223,6 +223,12 @@ footer{
 	width: 100%;
 }
 
+.form-button{
+	height: 100%;
+	width: 20%;
+	margin: 0 auto;
+}
+
 
 
 /*page layout formating*/
@@ -290,7 +296,7 @@ footer{
 }
 
  /*welcome styles*/
- .welcome-text{
+.welcome-text{
  	font-size: 30px;
  	font-weight: bold;
  	text-align: center;
@@ -299,11 +305,25 @@ footer{
  }
 
 /*focus issues*/
- a, a:active, a:focus {
+a, a:active, a:focus {
 outline: none !important;
 }
 
 button:active, button:focus{
 	outline: none !important;
+}
+
+/*contact page styling*/
+.form-group{
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+label{
+	float: left;
+}
+
+.gotcha{
+	display: none;
 }
 
